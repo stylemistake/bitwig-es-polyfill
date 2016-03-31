@@ -11,7 +11,10 @@ to work correctly, such as [Babel].
 
 Here is the list of polyfills:
 
+* `Array.from`
 * `Array.isArray`
+* `Array.of`
+* `Array.prototype.fill`
 * `Array.prototype.reduce`
 * `Array.prototype.reduceRight`
 * `console.log`
@@ -25,6 +28,7 @@ Here is the list of polyfills:
 * `Date.prototype.toISOString`
 * `Date.prototype.toJSON`
 * `Function.prototype.bind`
+* `Math.trunc`
 * `Number.EPSILON`
 * `Number.MAX_SAFE_INTEGER`
 * `Number.MIN_SAFE_INTEGER`
@@ -56,7 +60,7 @@ Here is the list of polyfills:
 * `String.prototype.padStart`
 * `String.prototype.padEnd`
 * `parseInt` (shim)
-* `parseFloat` (shim)
+* `parseFloat`
 * `setTimeout`
 * `setInterval`
 * `clearTimeout`

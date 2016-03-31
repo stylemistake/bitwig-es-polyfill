@@ -17,6 +17,7 @@ if (typeof loadAPI === 'function') {
   require('./polyfill/console.js');
   require('./polyfill/date.js');
   require('./polyfill/function.js');
+  require('./polyfill/math.js');
   require('./polyfill/number.js');
   require('./polyfill/object.js');
   require('./polyfill/string.js');
