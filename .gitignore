@@ -1,0 +1,38 @@
+# .gitignore
+
+## ------------------------------------
+##  Project build rubbish
+## ------------------------------------
+
+/node_modules
+
+
+## ------------------------------------
+##  Normally ignored rubbish
+## ------------------------------------
+
+## IDE files
+/.idea
+/.vscode
+/*.sublime-project
+/*.sublime-workspace
+
+## shared hosting files
+.ftpquota
+error_log
+cgi-bin
+
+## temp files
+*~
+*.tmp
+*.swp
+*.swo
+.swp.*
+
+## OS generated files
+__MACOSX
+.DS_Store
+.Spotlight*
+.Trash*
+ehthumbs.db
+Thumbs.db

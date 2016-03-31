@@ -1,0 +1,19 @@
+{
+  "name": "bitwig-es-shim",
+  "version": "0.1.0",
+  "description": "Provides standard ECMAScript library in Bitwig Studio",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "json3": "^3.3.2"
+  },
+  "keywords": [
+    "bitwig",
+    "studio",
+    "es6",
+    "es7",
+    "shim"
+  ],
+  "author": "Aleksej Komarov <stylemistake@gmail.com>",
+  "license": "LGPL-3.0"
+}

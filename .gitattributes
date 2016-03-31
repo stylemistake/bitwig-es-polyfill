@@ -1,0 +1,22 @@
+## Default behaviour
+* text=auto
+
+## Normalize line endings for all source files
+*.js text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.ect text eol=lf
+
+## Denote all files that are truly binary
+*.ico binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
