@@ -1,6 +1,6 @@
 {
-  "name": "bitwig-es-shim",
-  "version": "0.1.1",
+  "name": "bitwig-es-polyfill",
+  "version": "0.1.3",
   "description": "Provides standard ECMAScript library in Bitwig Studio",
   "main": "index.js",
   "dependencies": {
@@ -14,6 +14,14 @@
     "es7",
     "shim"
   ],
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/stylemistake/bitwig-es-polyfill"
+  },
+  "bugs": {
+    "email": "stylemistake@gmail.com",
+    "url" : "https://github.com/stylemistake/bitwig-es-polyfill/issues"
+  },
   "author": "Aleksej Komarov <stylemistake@gmail.com>",
   "license": "LGPL-3.0"
 }
