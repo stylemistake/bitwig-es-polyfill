@@ -9,10 +9,10 @@ if (typeof loadAPI === 'function') {
   loadAPI(1);
 
   // Set common global refs
-  global.global = self;
-  global.window = self;
+  global.global = global;
+  global.window = global;
 
-  // Require all polyfills
+  // Require all local polyfills
   require('./polyfill/array.js');
   require('./polyfill/console.js');
   require('./polyfill/date.js');

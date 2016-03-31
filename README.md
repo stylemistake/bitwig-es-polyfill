@@ -21,10 +21,18 @@ Following objects are provided:
 * `console`
 * `global` and `window` objects
 
+If you're using a CommonJS loader, these are also provided:
+
+* `Promise` from [Bluebird]
+* `JSON` from [json3]
+
 Don't forget, that Bitwig Studio uses Rhino runtime, which is ES3 at most,
 so many of the provided functions are just dummy functions. These functions
 emulate the target environment as closely as possible, but fail silently if
 you use an unsupported feature.
+
+It doesn't provide the `Symbol` object (yet). This can limit what you can do
+with generators and iterables in [Babel].
 
 
 ## Usage
@@ -62,5 +70,7 @@ import 'bitwig-es-shim';
 Style Mistake <[stylemistake@gmail.com]>
 
 [babel]: http://babeljs.io/
+[json3]: https://github.com/bestiejs/json3
+[bluebird]: https://github.com/petkaantonov/bluebird
 [stylemistake.com]: http://stylemistake.com/
 [stylemistake@gmail.com]: mailto:stylemistake@gmail.com

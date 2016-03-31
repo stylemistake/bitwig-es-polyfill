@@ -1,6 +1,6 @@
 {
   "name": "bitwig-es-shim",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Provides standard ECMAScript library in Bitwig Studio",
   "main": "index.js",
   "dependencies": {
